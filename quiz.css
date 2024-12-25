@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #23272F;
+    color: linen;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    background-color: #333A45;
+    width: 100%;
+    max-width: 100%;
+    min-height: 90px;
+    padding: 20px;
+}
+
+.nav a {
+    background-color: #333A45;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    color: linen;
+    border-radius: 8px;
+    float: right;
+}
+
+.nav a:hover {
+    color: linen;
+    text-decoration: underline 2px solid #58C4DC;
+}
+
+.nav .main {
+    background-color: #333A45;
+    float: left;
+    margin-top: -5px;
+    font-size: 30px;
+}
+
+.nav .main:hover {
+    color: #58C4DC;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: 700;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid linen;
+}
+
+.question-row {
+    /* background-color: pink; */
+    width: 100%;
+    max-width: 70%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin: auto;
+    border-bottom: 1px solid linen;
+}
+
+.question-row span {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.question-row audio {
+    width: 150px;
+}
+
+.question-row img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(-90deg, blue, yellow, red);
+}
+
+.question-row video {
+    width: 200px;
+    /* height: 200px; */
+}
+
+.question-row iframe {
+    width: 200px;
+    height: 100px;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+/* button .button {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    margin: auto;
+    color: grey;
+    background-color: #d7e3fc;
+    border-radius: 8px;
+}
+
+.button:hover {
+    text-decoration: underline 2px solid black;
+    color: black;
+} */
+
+.up-arrow {
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+    display: block;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.up-arrow:hover {
+    color: #0a75e7;
+}

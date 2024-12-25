@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.bg-img {
+    background-image: url("img1.jpg");
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 1.0; */
+}
+
+.container {
+    background-color: #f5ebe0;
+    width: 100%;
+    max-width: 100%;
+    min-height: 90px;
+    padding: 20px;
+    opacity: 0.5;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    color: black;
+    border-radius: 8px;
+    opacity: 1.0;
+    float: right;
+}
+
+.nav a:hover {
+    text-decoration: underline 2px solid black;
+}
+
+.nav .main {
+    float: left;
+    margin-top: -5px;
+    font-size: 30px;
+}
+.nav .main:hover{
+    color: blue ;
+}
